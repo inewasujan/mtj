@@ -3,12 +3,6 @@ nav {
   justify-content: center;
   background-color: aqua;
 }
-.travel-icon {
-width: auto;
-height: 70px;
-padding:
-}
-
 footer {
   position: fixed;
   background-color: aqua;
@@ -18,3 +12,41 @@ footer {
   padding: 10px;
   text-align: center;
   }
+.travel-icon {
+  width: auto;
+  height: 70px;
+  padding: 0px;
+}
+
+.travel-img {
+  width: auto;
+  height: 175px;
+  padding: 10px;
+}
+
+.travel-stats { 
+  padding: 0;
+}
+
+.location-img{
+  height: 20px;
+  padding-left:10px;
+}
+.travel-location{
+  padding-left: 5px;
+}
+.travel-link {
+  padding-left: 5px;
+}
+
+
+.travel-lists {
+  display: flex;
+  flex-direction: row;
+}
+
+
+  /* git status
+git add .
+git commit -m "aaa"
+git push */
