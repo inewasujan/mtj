@@ -1,52 +1,59 @@
 nav {
   display: flex;
   justify-content: center;
-  background-color: aqua;
+  background-color: #87CEEB	;
 }
+
 footer {
   position: fixed;
-  background-color: aqua;
+  background-color: #87CEEB	;
   bottom: 0;
   left: 0;
   right: 0;
   padding: 10px;
   text-align: center;
-  }
-.travel-icon {
+}
+
+.journal-icon {
   width: auto;
   height: 70px;
   padding: 0px;
 }
 
+.travel{
+  display:flex;
+  flex-direction: row;
+}
+
 .travel-img {
-  width: auto;
-  height: 175px;
+  width: 425px;
+  height: 225px;
   padding: 10px;
 }
 
 .travel-stats { 
-  padding: 0;
-}
-
-.location-img{
-  height: 20px;
-  padding-left:10px;
-}
-.travel-location{
-  padding-left: 5px;
-}
-.travel-link {
-  padding-left: 5px;
-}
-
-
-.travel-lists {
   display: flex;
   flex-direction: row;
+  height: 20px;
 }
 
+.travel-link{
+  padding-left: 20px;
+}
 
-  /* git status
+.bold{
+  font-size: 35px;
+  font-style: bold;
+  font-weight: 950;
+}
+
+.date {
+  font-style: bold;
+  font-size: 15px;
+  font-weight: 950;
+}
+
+/* git status
 git add .
 git commit -m "aaa"
 git push */

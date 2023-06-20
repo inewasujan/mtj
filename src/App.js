@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <section className='travel--lists'>
+      <section>
           {travels}
       </section>
       <Footer />
