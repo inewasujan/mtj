@@ -9,6 +9,7 @@ function App() {
     return (
         <Travel 
           key={item.id}
+          maplink= {item.maplink}
           {...item}
         />
     )

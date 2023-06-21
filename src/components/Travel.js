@@ -8,11 +8,11 @@ export default function Travel(props) {
             <div className='travel-stats'>
                 <img className ="location-img" src="./images/location.ico" alt="location_holder"/>
                 <span className='travel-location'>{props.location}</span>
-                <span className='travel-link'>{props.maplink}</span>                               
+                <span className='travel-link'><a href={props.maplink} target='_ '>View on Google Maps</a></span>                               
             </div>
             <p className='card-title'><span className="bold">{props.title}</span></p>            
             <p className="date">{props.date}</p>
-            <span>{props.description}</span>
+            <p>{props.description}</p>
             </div>
         </div>
     )
