@@ -5,7 +5,7 @@ export default [
         title:"Mount Everest",
         description: "Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. The China–Nepal border runs across its summit point. Its elevation of 8,848.86 m was most recently established in 2020 by the Chinese and Nepali authorities",
         imgCover: "everest.png",
-        date: "15 May, 2023 - 30 Aug, 2023",
+        date: "15 May, 2023 - May, 2023",
         location: "Nepal",
         maplink: "https://www.google.com/maps?rlz=1C1CHBF_en-GBAU975AU975&output=search&q=mount+everest+best+time+of+the+year+to+climb&entry=mc&sa=X&ved=2ahUKEwiR-b3O79P_AhU0h1YBHaM9BNQQ0pQJegQIURAB",
     },
